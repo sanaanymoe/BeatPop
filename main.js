@@ -1,4 +1,3 @@
-
 window.onload = function () {
     canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
@@ -99,9 +98,8 @@ window.onload = function () {
     file.onchange = function () {
         var files = this.files;
         // debugger
-        // console.log(files[0]);
+        console.log(files[0]);
         audio.src = URL.createObjectURL(files[0]);
-        // console.log(audio.src)
         player()
     }
 
@@ -148,9 +146,6 @@ window.onload = function () {
     function renderBars() { //animates the graphics to the audio frequency
         requestAnimationFrame(renderBars);
         analyser.getByteFrequencyData(frequencyArray);
-
-        // ctx.fillStyle = "#000";
-        // ctx.fillRect(0, 0, playerWidth, playerHeight);
         var gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
         gradient.addColorStop(0, "rgba(35, 7, 77, 1)");
         gradient.addColorStop(1, "rgba(24, 83, 51, 1)");
