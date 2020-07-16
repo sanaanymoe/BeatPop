@@ -1,0 +1,215 @@
+/* #mp3_player {
+    width: 500px;
+    height: 60px;
+    background: #000;
+    padding: 5px;
+    margin: 50px auto;
+} */
+
+/* div#mp3_player>div>audio {
+    width: 500px;
+    background: #000;
+    float: left;
+} */
+
+div#mp3_player>canvas {
+    /* width: 500px;
+    height: 30px;
+    background: #002D3C;
+    float: left; */
+
+    /* background-color: transparent; */
+    /* position: absolute; */
+    /* width: 500px;
+    z-index: 1;
+    top: 0px;
+    margin: 0 auto; */
+}
+
+.head-btn{
+  margin-left: 40px;
+}
+
+
+
+#uploaded-file {
+  display: none;
+  /* position: fixed; */
+  /* top: 10px;
+  left: 10px;
+  z-index: 100;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  background-color:lightblue; */
+}
+/* #uploaded-file:hover{
+    cursor: pointer;
+} */
+
+#canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: radial-gradient(rgb(128, 0, 79) 15%, rgb(0, 47, 255) 10%,rgb(255, 0, 140) );; */
+  background-image: url('background.png');
+  /* background-repeat: no-repeat; */
+  /* background-image: url('background.jpg'); */
+}
+
+audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.head .upload{
+  margin: 3.5em 0.3em 0.3em 0;
+}
+
+.head .stop-btn{
+  margin: 10em 0.3em 0.3em 0;
+}
+
+.upload:hover{
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+.head img {
+  z-index: 100;
+    display: inline-block;
+    position: inherit;
+    height: 300px;
+ 
+} 
+
+.play-btn, .stop-btn, .upload{
+  position: fixed;
+  z-index: 100;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  /* margin: auto; */
+  margin: 7em 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  background-color:lightblue;
+  /* transition: all 0.2s; */
+}
+.play-btn:hover, .upload:hover{
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+.head-btn .circle{
+  margin-top: 8em;
+}
+#contact-txt {
+  margin-top: 10.5em;
+}
+
+.head-btn h4{
+  /* color: whitesmoke; */
+  z-index: 100;
+  display: inline-block;
+  position: fixed;
+  z-index: 20;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  /* margin: auto; */
+  margin: 8.5em 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-weight: 300; */
+  background-color:whitesmoke;
+}
+.circle, .bars{
+  /* position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  display: block;
+  padding: 5px 10px;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 12px;
+  background-color: black;
+  margin-top: 100px; */
+
+  position: fixed;
+  z-index: 20;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  /* margin: auto; */
+  margin: 14em 0.3em 0.3em 2em;
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  background-color:lightblue;
+}
+
+.circle:hover, .bars:hover{
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.head-btn #circle {
+  margin-top: 17em;
+}
+
+.contact {
+  margin-right: 2em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#fa-link-in{
+  margin-right: 4em;
+}
+
+.fa-linkedin{
+  margin-top: 9.5em;
+}
+
+.fa-github{
+  margin-top: 8em;
+}
+
+.fa:hover{
+  background-color: lightcoral;
+}
+
+.fa{
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  padding: 0.2em 0.5em;
+  background-color: lightblue;
+  border-radius: 2em;
+  box-sizing: border-box;
+  
+  /* align-items: flex-end; 
+  flex-direction: row;
+  float: left;  */
+}
+
