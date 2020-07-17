@@ -2,10 +2,10 @@
 
 ## [Take a look at BeatPop live](https://sanaanymoe.github.io/)
 ## Contents
-* Introduction. 
-* Technologies.
-* Features.
-* Future features.
+* [Introduction](https://github.com/sanaanymoe/BeatPop#introduction). 
+* [Technologies](https://github.com/sanaanymoe/BeatPop#technologies).
+* [Features](https://github.com/sanaanymoe/BeatPop#features).
+* [Future features](https://github.com/sanaanymoe/BeatPop#future-features).
 
 ## Introduction
 
@@ -19,7 +19,7 @@ BeatPop is an application that takes in the changes in the music's loudness and 
 * Web Audio API.
 * Hosted on [github](https://sanaanymoe.github.io/)
 
-## features
+## Features
 
 * User can play a sample audio(for test purpose)
 
