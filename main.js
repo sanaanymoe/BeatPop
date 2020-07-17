@@ -87,8 +87,8 @@ window.onload = function () {
     
     test.onclick = function(){
         // debugger
-        audio.src = 'Beats-pop.mp3';
-        source = 'Beats-pop.mp3'
+        audio.src = './assets/Beats-pop.mp3';
+        source = './assets/Beats-pop.mp3'
         // console.log(test)
         player()  
     }
