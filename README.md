@@ -14,6 +14,8 @@ BeatPop is an application that takes in the changes in the music's loudness and 
 ## Technologies
 
 * Javascript.
+* HTML.
+* CSS.
 * Web Audio API.
 * Hosted on [github](https://sanaanymoe.github.io/)
 
