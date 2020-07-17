@@ -4,7 +4,8 @@
 ## Contents
 * Introduction. 
 * Technologies.
-* Features
+* Features.
+* Future features.
 
 ## Introduction
 
@@ -29,3 +30,8 @@ BeatPop is an application that takes in the changes in the music's loudness and 
 * User can choose different animation style.
 
 ![](Animated3.gif)
+
+## Future features
+
+* Allow users to create their own play list.
+* Add more animation options.
