@@ -18,5 +18,6 @@ BeatPop is an application that takes in the changes in the music's loudness and 
 
 ## features
 
+* User can play a sample audio(for test purpose)
 
 ![](Animated.gif)
