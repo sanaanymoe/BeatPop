@@ -23,15 +23,15 @@ BeatPop is an application that takes in the changes in the music's loudness and 
 
 * User can play a sample audio(for test purpose)
 
-![](Animated.gif)
+![](assets/Animated.gif)
 
 * User can upload audio files from their local machine.
 
-![](Animated2.gif)
+![](assets/Animated2.gif)
 
 * User can choose different animation style.
 
-![](Animated3.gif)
+![](assets/Animated3.gif)
 
 ## Future features
 
