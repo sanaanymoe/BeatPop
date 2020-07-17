@@ -98,7 +98,7 @@ window.onload = function () {
     file.onchange = function () {
         var files = this.files;
         // debugger
-        console.log(files[0]);
+        // console.log(files[0]);
         audio.src = URL.createObjectURL(files[0]);
         player()
     }
