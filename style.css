@@ -35,7 +35,7 @@ audio {
 
 
 .head .upload{
-  margin: 3.5em 0.3em 0.3em 0;
+  margin: 5.5em 0.3em 0.3em 0;
 }
 
 .head .stop-btn{
@@ -76,7 +76,7 @@ audio {
   margin-top: 8em;
 }
 #contact-txt {
-  margin-top: 10.5em;
+  margin-top: 8.5em;
 }
 
 .head-btn h4{
@@ -120,7 +120,7 @@ audio {
 .contact {
   margin-right: 2em;
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: flex-end;
 }
 
