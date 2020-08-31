@@ -1,6 +1,6 @@
 # BeatPop
 
-## [Take a look at BeatPop live](https://sanaanymoe.github.io/)
+## [Take a look at BeatPop live](https://sanaanymoe.github.io/BeatPop/)
 ## Contents
 * [Introduction](https://github.com/sanaanymoe/BeatPop#introduction). 
 * [Technologies](https://github.com/sanaanymoe/BeatPop#technologies).
