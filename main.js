@@ -175,7 +175,8 @@ window.onload = function () {
         audio.load();
         audio.play();
         status = 'playing';
-        context = new AudioContext();  //create an AudioContext object instance(from JS Audio API)
+        // context = new AudioContext();  //create an AudioContext object instance(from JS Audio API) //this didn't work on Safari
+        context = new (window.AudioContext || window.webkitAudioContext); //this works on all abrowsers
         src = context.createMediaElementSource(audio);
         analyser = context.createAnalyser(); //AnalyserNode method to create analyser using the AudioContext API object
 
