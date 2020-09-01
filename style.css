@@ -8,7 +8,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -148,7 +148,7 @@ audio {
   margin-top: 8em;
 }
 #contact-txt {
-  margin-top: 8.5em;
+  margin-top: 10.5em;
 }
 
 .head-btn h4{
@@ -160,7 +160,7 @@ audio {
   display: inline-block;
   padding: 0.3em 1.2em;
   /* margin: auto; */
-  margin: 8.5em 0.3em 0.3em 0;
+  margin: 10.5em 0.3em 0.3em 0;
   border-radius: 2em;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -186,7 +186,7 @@ audio {
 }
 
 .head-btn #circle {
-  margin-top: 17em;
+  margin-top: 16em;
 }
 
 .contact {
@@ -201,11 +201,11 @@ audio {
 }
 
 .fa-linkedin{
-  margin-top: 9.5em;
+  margin-top: 10.5em;
 }
 
 .fa-github{
-  margin-top: 8em;
+  margin-top: 9em;
 }
 
 .fa:hover{
