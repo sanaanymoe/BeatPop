@@ -119,6 +119,10 @@ audio {
   background-color: lightcoral;
 }
 
+#upladBtn {
+  margin: 14em 0.3em 1em 0;
+}
+
 .head img {
   z-index: 100;
     display: inline-block;
